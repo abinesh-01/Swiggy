@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+.header .left-side{
+    width: 55%;
+    height: 100%;
+    padding: 60px 90px 60px 50px;
+} 
+.header .left-side .head-tag{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .left-side .head-tag .buttons button{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+.header .left-side .content h1{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.header .left-side .content h2{
+    font-weight: none;
+    color: rgb(194, 185, 185);
+    margin-top: 8px;
+}
+.header .left-side .content .search-box{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+    background-color: #fff;
+    padding-left: 10px;
+    border: 1px solid orange;
+}
+.header .left-side .content .search-box input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    caret-color: orange;
+}
+.header .left-side .content .search-box span h6{
+    margin-left: 140px;
+    font-size: 14px;
+    color: rgb(163, 157, 157);
+    font-weight: none;
+}
+.header .left-side .content .search-box .find-food{
+    background-color: orange;
+    width: 130px;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+.header .left-side .content p{
+    margin-top: 30px;
+    color: rgba(168, 160, 160, 0.918);
+    font-weight: bold;
+}
+.header .left-side .content p b{
+    color: rgba(8, 8, 8, 0.685);
+}
+.header .right-side{
+    width: 45%;
+    height: 100%;
+}
+.header .right-side img{
+    width: 100%;
+    height: 100%;
+}
+
+/********* Three box ******/
+
+.three-box{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(34, 8, 8);
+}
+.three-box .box{
+    width: 260px;
+    height: 330px;
+}
+.three-box .box .img{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.three-box .box .img img{
+    width: 105px;
+    height: 100%;
+}
+.three-box .threebox-content{
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+.three-box .threebox-content p{
+    padding-top: 15px;
+}
+
+/********** Restaurants ******/
+
+.restaurant{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.restaurant .left{
+    width: 40%;
+    height: 100%;
+    padding: 120px 80px;
+}
+.restaurant .left h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.restaurant .left p{
+    font-size: 18px;
+    color: rgb(173, 167, 167);
+}
+.restaurant .left .appimages{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+.restaurant .left .appimages .play{
+    margin-right: 20px;
+}
+.restaurant .right{
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+.restaurant .right .iphone{
+    position: absolute;
+    bottom: 0;
+    right: 90px;
+}
+/********** Four Box *********/
+
+.four-box{
+    width: 100%;
+    height: 500px;
+    padding: 70px 50px 0 50px;
+    background-color: #000;
+}
+.four-box .box-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray ;
+}
+.four-box .box-container .box1{
+    width: 300px;
+    height: 100%;
+    color: rgba(255, 255, 255, 0.877);
+}
+.four-box .box-container .box1 li{
+    list-style: none;
+    line-height: 40px;
+    transition: all 0.5 ease-in-out;
+}
+.four-box .box-container .box1 p{
+    margin-bottom: 20px;
+    color: gray;
+}
+.four-box .box-container .box1 li:hover{
+    color: #fff;
+    transform: translateX(1px);
+    cursor: pointer;
+}
+.four-box .box-container .getapp {
+    width: 300px;
+    height: 100%;
+
+}
+.four-box .box-container .getapp img{
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: all 1 ease-in-out;
+}
+.four-box .box-container .getapp img:hover{
+    transform: scale(1.1);
+}
+/********* Deliver *********/
+.deliver{
+    width: 100%;
+    height: 300px;
+    padding: 40px 50px 0 50px;
+    background-color: #000;
+}
+.deliver .deliver-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.deliver p{
+    color: gray;
+}
+.deliver .deliver-container .box2{
+    width: 300px;
+    height: 195px;
+}
+.deliver .deliver-container .box2 li{
+    list-style: none;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.918);
+}
+.deliver .deliver-container .box2 li:hover{
+    color: #fff;
+    transform: translateX(3px);
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background-color: #000;
+}
+.footer .logo img{
+    color: #fff;
+}
+.footer .social-icons .fa-brands{
+    margin-right: 20px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
